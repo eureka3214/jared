@@ -112,7 +112,7 @@ if choose == "Write For Me":
 
     
     with st.container():
-        st.Title("Write For Me")
+        st.header("Write For Me")
         col1, col2,= st.columns(2)
         with col1:
             usecase = st.selectbox("Use Case",  ('Email', 'Home phone', 'Mobile phone'),label_visibility='visible' )
