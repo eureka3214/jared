@@ -25,7 +25,7 @@ st.markdown(
                 width: 200px;
             }}
 
-    .stTextInput > label 
+    .stApp > label 
         {{ 
             font-size:20px; 
             font-weight:bold; 
