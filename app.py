@@ -133,9 +133,9 @@ if choose == "Write For Me":
     query = variable + ' where the tone of the caption should sound ' + str(tone) +' .'
 
       
-    save = st.button("Save")
-    if save:
-        st.text_area("Description", value="", placeholder=query, key='description')
+            save = st.button("Save")
+            if save:
+                st.text_area("Description", value="", placeholder=query, key='description')
 
 
     # st.markdown('</div>', unsafe_allow_html=True)
