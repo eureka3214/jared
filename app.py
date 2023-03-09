@@ -88,7 +88,7 @@ with st.sidebar:
                          icons=['cpu', 'lightbulb fill', 'bar-chart fill', 'book','person dash'],
                          menu_icon="app-indicator", default_index=0,
                          styles={
-        "container": {"padding": "5!important","background": "radial-gradient(at bottom left, rgba(255, 0, 255, 0.1), transparent 300px)","border-radius": "16px","box-shadow": "0 4px 30px rgba(0, 0, 0, 0.1)","backdrop-filter": "blur(5px)","-webkit-backdrop-filter": "blur(5px)","border": "1px solid rgba(255, 255, 255, 0.3)"},
+        "container": {"padding": "5!important","background": "radial-gradient(at bottom left, rgba(255, 0, 255, 0.1), transparent 500px)","border-radius": "16px","box-shadow": "0 4px 30px rgba(0, 0, 0, 0.1)","backdrop-filter": "blur(5px)","-webkit-backdrop-filter": "blur(5px)","border": "1px solid rgba(255, 255, 255, 0.3)"},
         "icon": {"font-color":"Grey", "font-size": "14px", "border-radius":"50%"}, 
         "nav-link": {"font-size": "15px","font-weight":"700", "border-radius":"10px", "font-color":"Grey", "text-align": "left", "margin":"10px", "--hover-color": "#FF69B4", "--hover-box-shadow": "0 0 35px rgba(145, 92, 182, .4)"},
         "nav-link-selected": {"background": " linear-gradient(to right, #9B59B6, #f63633);"},
@@ -103,17 +103,19 @@ if choose == "Write For Me":
     with st.container():
         st.header("Write For Me")
         col1, col2,= st.columns(2)
+        string_list = ['Instagram', 'OnlyFans', 'Twitter Post', 'Tiktok Caption', 'NSFW Video']
+        
+        options = ['Clever', 'Humorous', 'Sarcastic']
         with col1:
-            usecase = st.selectbox("Use Case",  ('Instagram', 'OnlyFans', 'Twitter Post', 'Tiktok Caption', 'NSFW Video'),label_visibility='visible' )
+            usecase = st.selectbox("Use Case",  string_list,label_visibility='visible' )
         with col2:
-            tone = st.selectbox("Select Tone",  ('Clever', 'Humorous', 'Sarcastic'),label_visibility='visible')
+            tone = st.selectbox("Select Tone", options,label_visibility='visible')
 
         descript = st.text_area("Description",label_visibility='visible')
         output = st.text_area("Heres your Text",label_visibility='visible')
 
         save = st.button("Save")
         if save:
-            query = str(usecase) + str(tone) + str(descript)
             st.write(query)
 
 
