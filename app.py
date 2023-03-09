@@ -145,8 +145,8 @@ if choose == "Write For Me":
       
     if save:
         x.empty()
-        with descript.container():
-            descript.text_area("Description",placeholder=query, label_visibility='visible')
+        with x.container():
+            descript = x.text_area("Description",placeholder=query, label_visibility='visible')
         # descript = st.empty()
         # container(Update_des(query))
         # descript.value = query
