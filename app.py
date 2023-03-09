@@ -8,22 +8,22 @@ import os
 
 openai.api_key =  os.getenv("APIKEY")
 st.set_page_config(page_title="My App", page_icon=":rocket:", layout="wide",initial_sidebar_state="expanded"  )
-st.markdown(
-    f"""
-    <style>
-    .stApp {{
-        background: rgba( 61, 183, 242, 0.4 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4px );
-        -webkit-backdrop-filter: blur( 4px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
+# st.markdown(
+#     f"""
+#     <style>
+#     .stApp {{
+#         background: rgba( 255, 255, 255, 0.4 );
+#         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+#         backdrop-filter: blur( 4px );
+#         -webkit-backdrop-filter: blur( 4px );
+#         border-radius: 10px;
+#         border: 1px solid rgba( 255, 255, 255, 0.18 );
         
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-    )
+#     }}
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+#     )
    
 with st.sidebar:
     choose = option_menu("App Gallery", ["Write For Me", "Idea Generator", "Promotion Ideas", "Account", "Log Out"],
