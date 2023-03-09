@@ -104,7 +104,7 @@ if choose == "Write For Me":
 
         st.header("Write For Me")
         col1, col2,= st.columns(2)
-        descript = st.text_area("Description",label_visibility='visible',key="description")
+        descript = st.text_area("Description",label_visibility='visible',key="description",placeholder=None)
 
         
         options = ['Clever', 'Humorous', 'Sarcastic']
