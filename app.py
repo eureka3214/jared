@@ -22,7 +22,7 @@ st.markdown(
     }}
 
     .sidebar .sidebar-content {{
-                width: 300px;
+                width: 200px;
             }}
     </style>
     """,
