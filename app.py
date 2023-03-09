@@ -147,6 +147,8 @@ if choose == "Write For Me":
         x.empty()
         with x.container():
             descript = x.text_area("Description",placeholder=query, label_visibility='visible')
+
+        
         # descript = st.empty()
         # container(Update_des(query))
         # descript.value = query
