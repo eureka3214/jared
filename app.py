@@ -22,7 +22,7 @@ st.markdown(
 
 
 [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {{
-    border: 20px groove red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }}
     
     .stApp {{
