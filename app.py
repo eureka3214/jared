@@ -32,6 +32,7 @@ st.markdown(
     border-radius: 15px;
     padding:6px;
     width:96%;
+    margin-left: 10px;
     
 }}
 
