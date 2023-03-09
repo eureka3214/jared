@@ -36,13 +36,13 @@ st.markdown(
 
     .appview-container .main .block-container{{
         padding: 2rem;
-        background: radial-gradient(circle at top right, rgba(255, 0, 255, 0.2), transparent 600px ), radial-gradient(at bottom left, rgba(255, 0, 255, 0.2), transparent 400px);
+        background: radial-gradient(circle at top right, rgba(255, 0, 255, 0.1), transparent 600px ), radial-gradient(at bottom left, rgba(255, 0, 255, 0.1), transparent 400px);
     
             }}
 
     sidebar .sidebar-content {{
     background-color: #111 !important;
-    background: background: radial-gradient(circle at top right, rgba(255, 0, 255, 0.2), transparent 600px )
+    background:radial-gradient(circle at top right, rgba(255, 0, 255, 0.2), transparent 600px )
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }}
 
