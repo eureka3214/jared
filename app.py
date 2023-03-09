@@ -104,11 +104,12 @@ if choose == "Write For Me":
 
         st.header("Write For Me")
         col1, col2,= st.columns(2)
+        descript = st.text_area("Description",label_visibility='visible')
+
         
         options = ['Clever', 'Humorous', 'Sarcastic']
         with col1:
             usecase = st.selectbox("Use Case",  ['Instagram', 'OnlyFans', 'Twitter Post', 'Tiktok Caption', 'NSFW Video'], label_visibility='visible' )
-            descript = st.text_area("Description",label_visibility='visible')
             # output = st.text_area("Here's your Text",label_visibility='visible')
         
             if usecase == 'Instagram':
