@@ -12,14 +12,14 @@ st.markdown(
     f"""
     <style>
     #MainMenu {{visibility: hidden;}}
-    
+
     .stApp {{
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1776%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsRadialGradient1777)'%3e%3c/rect%3e%3cpath d='M1440 0L1075.24 0L1440 200.66z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1075.24 0L1440 200.66L1440 385.78999999999996L805.3299999999999 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M805.3299999999999 0L1440 385.78999999999996L1440 475.81999999999994L426.23999999999995 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M426.24 0L1440 475.81999999999994L1440 482.0899999999999L240.93 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L572.89 560L0 514.51z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 514.51L572.89 560L658.02 560L0 246.98000000000002z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 246.98000000000002L658.02 560L685.54 560L0 165.40000000000003z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 165.40000000000003L685.54 560L1030.17 560L0 132.26000000000005z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1776'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='0%25' cy='50%25' r='1466.97' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient1777'%3e%3cstop stop-color='rgba(248%2c 186%2c 246%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(248%2c 78%2c 242%2c 1)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3c/defs%3e%3c/svg%3e");
         
     }}
 
     .sidebar .sidebar-content {{
-                background: rgba( 255, 255, 255, 0 );
+                background: rgba( 0, 0, 0, 0 );
                 width: 200px;
 
             }}
