@@ -59,6 +59,17 @@ if choose == "Write For Me":
     with col2:
         tone = st.selectbox("Select Tone",  ('Email', 'Home phone', 'Mobile phone'),label_visibility='visible')
 
+    descript = st.text_area("Description",label_visibility='visible')
+
+    output = st.text_area("Heres your Text",label_visibility='visible')
+
+    columa, columb st.columns([10,0.5])
+    with columb:
+        save = st.button("Save")
+        if save:
+            query = str(usecase) + str(tone) + descript
+            st.Write(query)
+
 
 
 
