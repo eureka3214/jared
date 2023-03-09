@@ -38,7 +38,7 @@ st.markdown(
 
 
  [data-baseweb="select"] {{
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 15px;
     
     
@@ -46,7 +46,7 @@ st.markdown(
 
 
 [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 15px;
     padding: 30px 13px 7px 8px;
     margin-left: 10px
