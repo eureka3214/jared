@@ -63,7 +63,7 @@ if choose == "Write For Me":
 
     output = st.text_area("Heres your Text",label_visibility='visible')
 
-    columa, columb st.columns([10,0.5])
+    columa, columb = st.columns([10,0.5])
     with columb:
         save = st.button("Save")
         if save:
