@@ -54,17 +54,17 @@ with st.sidebar:
     }
     )
 
-    with st.container():
-        box=option_menu("Trial Pack", ["Click to subscribe"],
-                         icons=['currency-exchange'],
-                         menu_icon="activity", default_index=0,
-                        styles={
-        "container": {"padding": "5!important","background": "rgba(255, 255, 255, 0.2)","border-radius": "16px","box-shadow": "0 4px 30px rgba(0, 0, 0, 0.1)","backdrop-filter": "blur(5px)","-webkit-backdrop-filter": "blur(5px)","border": "1px solid rgba(255, 255, 255, 0.3)"},
-        "icon": {"font-color":"Grey", "font-size": "15px", "border-radius":"50%"}, 
-        "nav-link": {"font-size": "12px","font-weight":"700", "border-radius":"10px", "font-color":"Grey", "text-align": "left", "margin":"10px", "--hover-color": "#FF69B4", "--hover-box-shadow": "0 0 35px rgba(145, 92, 182, .4)"},
-        "nav-link-selected": {"background": " linear-gradient(to right, #9B59B6, #f63633);"},
-    }
-    )
+    # with st.container():
+    #     box=option_menu("Trial Pack", ["Click to subscribe"],
+    #                      icons=['currency-exchange'],
+    #                      menu_icon="activity", default_index=0,
+    #                     styles={
+    #     "container": {"padding": "5!important","background": "rgba(255, 255, 255, 0.2)","border-radius": "16px","box-shadow": "0 4px 30px rgba(0, 0, 0, 0.1)","backdrop-filter": "blur(5px)","-webkit-backdrop-filter": "blur(5px)","border": "1px solid rgba(255, 255, 255, 0.3)"},
+    #     "icon": {"font-color":"Grey", "font-size": "15px", "border-radius":"50%"}, 
+    #     "nav-link": {"font-size": "12px","font-weight":"700", "border-radius":"10px", "font-color":"Grey", "text-align": "left", "margin":"10px", "--hover-color": "#FF69B4", "--hover-box-shadow": "0 0 35px rgba(145, 92, 182, .4)"},
+    #     "nav-link-selected": {"background": " linear-gradient(to right, #9B59B6, #f63633);"},
+    # }
+    # )
 
 
 
