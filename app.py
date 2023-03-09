@@ -7,7 +7,7 @@ import openai
 import os
 openai.api_key =  os.getenv("APIKEY")
 st.set_page_config(page_title="My App", page_icon=":rocket:", layout="wide",initial_sidebar_state="expanded"  )
-st.write('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
+st.write('<style>div.block-container{padding-top:0rem;}</style>', unsafe_allow_html=True)
 
 st.markdown(
     f"""
