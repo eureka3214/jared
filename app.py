@@ -104,7 +104,7 @@ if choose == "Write For Me":
         st.header("Write For Me")
         col1, col2,= st.columns(2)
         with col1:
-            usecase = st.selectbox("Use Case",  ('Email', 'Home phone', 'Mobile phone'),label_visibility='visible' )
+            usecase = st.selectbox("Use Case",  ('Instagram', 'OnlyFans', 'Twitter Post', 'Tiktok Caption', 'NSFW Video'),label_visibility='visible' )
         with col2:
             tone = st.selectbox("Select Tone",  ('Email', 'Home phone', 'Mobile phone'),label_visibility='visible')
 
