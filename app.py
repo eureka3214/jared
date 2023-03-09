@@ -21,9 +21,9 @@ st.markdown(
         
     }}
 
-    .css-1x8cf1d edgvbvh10 {{
-        background-image: linear-gradient(to right, #9B59B6, #f63633);
-    }}
+    .sidebar .sidebar-content {{
+                width: 300px;
+            }}
     </style>
     """,
     unsafe_allow_html=True
