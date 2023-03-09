@@ -31,8 +31,7 @@ st.markdown(
     box-shadow: box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 15px;
     padding:6px;
-    width:80%;
-    margin-right:10px
+    width:96%;
     
 }}
 
@@ -49,7 +48,7 @@ st.markdown(
 
     .sidebar .sidebar-content {{
                 background: rgba( 0, 0, 0, 0 );
-                width:375px
+                width:475px
                 
 
             }}
@@ -73,8 +72,8 @@ with st.sidebar:
                          menu_icon="app-indicator", default_index=0,
                          styles={
         "container": {"padding": "5!important","background": "rgba(255, 255, 255, 0.2)","border-radius": "16px","box-shadow": "0 4px 30px rgba(0, 0, 0, 0.1)","backdrop-filter": "blur(5px)","-webkit-backdrop-filter": "blur(5px)","border": "1px solid rgba(255, 255, 255, 0.3)"},
-        "icon": {"font-color":"Grey", "font-size": "14px", "border-radius":"50%"}, 
-        "nav-link": {"font-size": "12px","font-weight":"700", "border-radius":"10px", "font-color":"Grey", "text-align": "left", "margin":"10px", "--hover-color": "#FF69B4", "--hover-box-shadow": "0 0 35px rgba(145, 92, 182, .4)"},
+        "icon": {"font-color":"Grey", "font-size": "16px", "border-radius":"50%"}, 
+        "nav-link": {"font-size": "20px","font-weight":"700", "border-radius":"10px", "font-color":"Grey", "text-align": "left", "margin":"10px", "--hover-color": "#FF69B4", "--hover-box-shadow": "0 0 35px rgba(145, 92, 182, .4)"},
         "nav-link-selected": {"background": " linear-gradient(to right, #9B59B6, #f63633);"},
     }
     )
