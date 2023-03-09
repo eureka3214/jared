@@ -110,10 +110,9 @@ if choose == "Write For Me":
 
         descript = st.text_area("Description",label_visibility='visible')
 
-        output = st.text_area("Heres your Text",label_visibility='visible')
         save = st.button("Save")
         if save:
-
+            output = st.text_area("Heres your Text",label_visibility='visible')
             query = str(usecase) + str(tone) + str(descript)
             st.write(query)
 
