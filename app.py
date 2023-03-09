@@ -34,7 +34,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
     )
-st.markdown("<style> .stTextArea > label {{font-size:14px;}} </style> ",unsafe_allow_html=True) 
+st.markdown("<style> .stTextArea > label {font-size:14px;} </style> ",unsafe_allow_html=True) 
    
 with st.sidebar:
     choose = option_menu("App Gallery", ["Write For Me", "Idea Generator", "Promotion Ideas", "Account", "Log Out"],
