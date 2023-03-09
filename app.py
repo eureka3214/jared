@@ -27,6 +27,10 @@ st.markdown(
 
             }}
 
+    .stButton {{
+        background: linear-gradient(to right, #9B59B6, #f63633);
+    }}
+
     .stTextArea {{ 
             font-size:20px; 
             font-weight:bold; 
@@ -36,7 +40,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
     )
-st.markdown("<style> .stTextArea > label {font-size:14px; font-weight:bold;} </style> ",unsafe_allow_html=True) 
+# st.markdown("<style> .stTextArea > label {font-size:14px; font-weight:bold;} </style> ",unsafe_allow_html=True) 
    
 with st.sidebar:
     choose = option_menu("App Gallery", ["Write For Me", "Idea Generator", "Promotion Ideas", "Account", "Log Out"],
