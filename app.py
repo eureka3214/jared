@@ -50,7 +50,7 @@ st.markdown(
     
 }}
 
-.stTextArea > label {{
+[data-testid="stMarkdownContainer"]> p {{
         font-size: 16px;
         font-weight: bold;
 
