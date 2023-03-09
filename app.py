@@ -135,7 +135,6 @@ if choose == "Write For Me":
       
         save = st.button("Save")
         if save:
-            st.text_area("Description", value="", placeholder=query, key='description')
-
+            descript.placeholder = query
 
     # st.markdown('</div>', unsafe_allow_html=True)
