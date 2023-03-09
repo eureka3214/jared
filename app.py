@@ -34,7 +34,8 @@ st.markdown(
     <style>
     #MainMenu {{visibility: hidden;}}
 
-    
+    .appview-container .main .block-container{{
+        padding: 2rem;    }}
 
     sidebar .sidebar-content {{
     background-color: #111 !important;
