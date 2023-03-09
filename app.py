@@ -97,14 +97,21 @@ with st.sidebar:
 
 
 
+def Update_des(val):
+        descript = st.text_area('Description', value=val, label_visibility='visible')
+        return descript
+    
+
+
 if choose == "Write For Me":
 
-
+    
+    
     with st.container():
 
         st.header("Write For Me")
         col1, col2,= st.columns(2)
-        descript = st.empty()
+        Update_des("Type something")
         descript = st.text_area("Description",label_visibility='visible',key="description",placeholder=None)
 
         
@@ -137,6 +144,9 @@ if choose == "Write For Me":
 
       
     if save:
-        descript.value = query
+        descript = st.empty()
+        Update_des(query)
+        # descript.value = query
+        
 
     # st.markdown('</div>', unsafe_allow_html=True)
