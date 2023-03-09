@@ -51,7 +51,7 @@ st.markdown(
 }}
 
 [data-testid="stMarkdownContainer"]> p {{
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
 
     }}
