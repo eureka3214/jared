@@ -161,7 +161,7 @@ if choose == "Write For Me":
         y.empty()
 
         with y.container():
-            output = y.text_area("Here's your Text",label_visibility='visible')
+            output = y.text_area("Here's your Text",value=explan, label_visibility='visible')
             
         # descript = st.empty()
         # container(Update_des(query))
