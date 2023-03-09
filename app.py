@@ -112,9 +112,10 @@ if choose == "Write For Me":
 
         save = st.button("Save")
         if save:
-            output = st.text_area("Heres your Text",label_visibility='visible')
             query = str(usecase) + str(tone) + str(descript)
-            st.write(query)
+            output = st.text_area("Heres your Text",label_visibility='visible')
+
+            # st.write(query)
 
 
 # st.markdown('</div>', unsafe_allow_html=True)
