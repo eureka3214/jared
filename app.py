@@ -35,7 +35,19 @@ st.markdown(
     #MainMenu {{visibility: hidden;}}
 
     .appview-container .main .block-container{{
-        padding: 2rem;    }}
+        padding: 2rem;
+        background: radial-gradient(
+                         circle at top right,
+                         rgba(255, 255, 255, 0.5), 
+                        transparent 100px
+                                            ),
+                            radial-gradient(
+                            at bottom left,
+                            rgba(255, 0, 255, 0.5), 
+                            transparent 400px
+                            ),
+    
+            }}
 
     sidebar .sidebar-content {{
     background-color: #111 !important;
