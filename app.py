@@ -160,7 +160,7 @@ if choose == "Write For Me":
         # st.write(explan)
         output.empty()
 
-        with y.container()
+        with y.container():
             output = y.text_area("Here's your Text",label_visibility='visible')
             
         # descript = st.empty()
