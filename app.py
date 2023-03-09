@@ -16,6 +16,11 @@ st.set_page_config(page_title="My App", page_icon=":rocket:", layout="centered",
     
 # }}
 
+#   .stTextArea {{ 
+#             font-size:20px; 
+#             font-weight:bold; 
+
+#             }}
 
 st.markdown(
     f"""
@@ -47,11 +52,7 @@ st.markdown(
 
     }}
 
-    .stTextArea {{ 
-            font-size:20px; 
-            font-weight:bold; 
-
-            }}
+  
     </style>
     """,
     unsafe_allow_html=True
