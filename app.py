@@ -104,36 +104,38 @@ if choose == "Write For Me":
 
         st.header("Write For Me")
         col1, col2,= st.columns(2)
-        descript = st.text_area("Description",label_visibility='visible')
+        descript = st.text_area("Description",label_visibility='visible',key="description")
 
         
         options = ['Clever', 'Humorous', 'Sarcastic']
         with col1:
             usecase = st.selectbox("Use Case",  ['Instagram', 'OnlyFans', 'Twitter Post', 'Tiktok Caption', 'NSFW Video'], label_visibility='visible' )
             # output = st.text_area("Here's your Text",label_visibility='visible')
-        
-            if usecase == 'Instagram':
-                variable = 'Generate an Instagram caption for an image that describes ' +  str(descript) + ' The caption should  be short and attention grabbing, the goal is make people excited about the post and make them engage with the post.  use sexual innuendo hashtags and emojis as needed to make it attractive as possible. '
-            elif usecase == 'OnlyFans':
-                variable = 'Generate an OnlyFans Mass message for the following scenario ' + str(descript) + '  use explicit words, and sexual innuendo  if needed. The message should be less than 300 characters. The message should be triggering and seductive in a way to make the user reply or make a purchase. '
-            elif usecase == 'Twitter Post':
-                variable = 'Generate a Tweet message in less than 250 words , As a reply for the following tweet  ' +  str(descript) + ' The tweet should be attention grabbing, use sexual innuendo hashtags and emojis if required.  The ultimate goal is to obtain as many as interactions for the tweet. '
-            elif usecase == 'Tiktok Caption':
-                variable = 'Generate a caption for a tik tok video about ' + str(descript) + ' The caption should  be less than 150 characters and attention grabbing, use sexual innuendo hashtags and emojis as needed to make it attractive and attention grabbing as possible'
-            else:
-                variable = 'Generate a video description for a video about ' + str(descript) + '  use explicit words, and sexual innuendo  if needed. The message should be less than 300 characters. The message should be triggering and seductive in a way to make the user interested in watching the video.'
-
         with col2:
             tone = st.selectbox("Select Tone", options,label_visibility='visible')
-            query = variable + ' where the tone of the caption should sound ' + str(tone) +' .'
 
-        # descript = st.text_area("Description",label_visibility='visible',placeholder=query)
         output = st.text_area("Here's your Text",label_visibility='visible')
         
-        save = st.button("Save")
-        if save:
-            query = descript + ' ' + variable + ' ' + tone
-            st.write(query)
+
+
+
+    if usecase == 'Instagram':
+        variable = 'Generate an Instagram caption for an image that describes ' +  str(descript) + ' The caption should  be short and attention grabbing, the goal is make people excited about the post and make them engage with the post.  use sexual innuendo hashtags and emojis as needed to make it attractive as possible. '
+    elif usecase == 'OnlyFans':
+        variable = 'Generate an OnlyFans Mass message for the following scenario ' + str(descript) + '  use explicit words, and sexual innuendo  if needed. The message should be less than 300 characters. The message should be triggering and seductive in a way to make the user reply or make a purchase. '
+    elif usecase == 'Twitter Post':
+        variable = 'Generate a Tweet message in less than 250 words , As a reply for the following tweet  ' +  str(descript) + ' The tweet should be attention grabbing, use sexual innuendo hashtags and emojis if required.  The ultimate goal is to obtain as many as interactions for the tweet. '
+    elif usecase == 'Tiktok Caption':
+        variable = 'Generate a caption for a tik tok video about ' + str(descript) + ' The caption should  be less than 150 characters and attention grabbing, use sexual innuendo hashtags and emojis as needed to make it attractive and attention grabbing as possible'
+    else:
+        variable = 'Generate a video description for a video about ' + str(descript) + '  use explicit words, and sexual innuendo  if needed. The message should be less than 300 characters. The message should be triggering and seductive in a way to make the user interested in watching the video.'
+    
+    query = variable + ' where the tone of the caption should sound ' + str(tone) +' .'
+
+      
+    save = st.button("Save")
+    if save:
+        st.text_area("Description", placeholder=query, key='description')
 
 
     # st.markdown('</div>', unsafe_allow_html=True)
