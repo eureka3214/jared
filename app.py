@@ -34,11 +34,7 @@ st.markdown(
     <style>
     #MainMenu {{visibility: hidden;}}
 
-    div.stButton > button:first-child {{
-         
-         box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-
-          }}
+    
 
     sidebar .sidebar-content {{
     background-color: #111 !important;
@@ -53,6 +49,12 @@ st.markdown(
     margin-left: 10px;
     
 }}
+
+[data-baseweb="textarea"] > label {{
+        font-size: 16px;
+        font-weight: bold;
+        
+    }}
 
 
  [data-baseweb="select"] {{
@@ -78,6 +80,12 @@ st.markdown(
         color: white;
 
     }}
+
+    div.stButton > button:first-child {{
+         
+         box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+
+          }}
 
   
     </style>
