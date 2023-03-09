@@ -115,6 +115,8 @@ if choose == "Write For Me":
             tone = st.selectbox("Select Tone", options,label_visibility='visible')
 
         output = st.text_area("Here's your Text",label_visibility='visible')
+        save = st.button("Save")
+
         
 
 
@@ -133,8 +135,7 @@ if choose == "Write For Me":
     query = variable + ' where the tone of the caption should sound ' + str(tone) +' .'
 
       
-        save = st.button("Save")
-        if save:
-            descript.placeholder = query
+    if save:
+        descript.placeholder = query
 
     # st.markdown('</div>', unsafe_allow_html=True)
