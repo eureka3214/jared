@@ -42,6 +42,7 @@ st.markdown(
 
     sidebar .sidebar-content {{
     background-color: #111 !important;
+    background: background: radial-gradient(circle at top right, rgba(255, 0, 255, 0.2), transparent 600px )
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }}
 
