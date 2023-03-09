@@ -106,7 +106,7 @@ if choose == "Write For Me":
         with col1:
             usecase = st.selectbox("Use Case",  ('Instagram', 'OnlyFans', 'Twitter Post', 'Tiktok Caption', 'NSFW Video'),label_visibility='visible' )
         with col2:
-            tone = st.selectbox("Select Tone",  ('Email', 'Home phone', 'Mobile phone'),label_visibility='visible')
+            tone = st.selectbox("Select Tone",  ('Clever', 'Humorous', 'Sarcastic'),label_visibility='visible')
 
         descript = st.text_area("Description",label_visibility='visible')
 
