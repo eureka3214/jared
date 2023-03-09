@@ -24,6 +24,13 @@ st.markdown(
     .sidebar .sidebar-content {{
                 width: 200px;
             }}
+
+    .stTextInput > label 
+        {{ 
+            font-size:20px; 
+            font-weight:bold; 
+
+            }}
     </style>
     """,
     unsafe_allow_html=True
