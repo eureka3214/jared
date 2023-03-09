@@ -34,7 +34,11 @@ st.markdown(
     <style>
     #MainMenu {{visibility: hidden;}}
 
-    div.stButton > button:first-child {{ border: 5px solid purple; border-radius:20px 20px 20px 20px; }}
+    div.stButton > button:first-child {{
+         border-radius:20px 20px 20px 20px;
+         box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+
+          }}
 
     sidebar .sidebar-content {{
     background-color: #111 !important;
