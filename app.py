@@ -17,6 +17,7 @@ st.markdown(
     [data-testid="column"] {{
     box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
     border-radius: 15px;
+    padding:6px;
     
 }}
 
@@ -24,7 +25,7 @@ st.markdown(
 [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
-    padding: 10px
+    padding: 10px;
 
 }}
     
