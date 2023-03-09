@@ -25,7 +25,7 @@ st.markdown(
                 width: 200px;
             }}
 
-    .stApp > label 
+    .stTextArea > label 
         {{ 
             font-size:20px; 
             font-weight:bold; 
