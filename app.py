@@ -31,6 +31,7 @@ st.markdown(
     box-shadow: box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 15px;
     padding:6px;
+    width:80%
     margin-right:10px
     
 }}
@@ -82,7 +83,9 @@ with st.sidebar:
 
 if choose == "Write For Me":
 
+
     with st.container():
+
         col1, col2,= st.columns(2)
         with col1:
             usecase = st.selectbox("Use Case",  ('Email', 'Home phone', 'Mobile phone'),label_visibility='visible' )
@@ -94,8 +97,10 @@ if choose == "Write For Me":
         output = st.text_area("Heres your Text",label_visibility='visible')
         save = st.button("Save")
         if save:
+
             query = str(usecase) + str(tone) + str(descript)
             st.write(query)
+
 
         # columa, columb = st.columns([10,1])
         # with columb:
