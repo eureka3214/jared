@@ -22,10 +22,22 @@ st.set_page_config(page_title="My App", page_icon=":rocket:", layout="wide",init
 
 #             }}
 
+    # .stApp {{
+       
+       
+    # }}
+
+   
+
 st.markdown(
     f"""
     <style>
     #MainMenu {{visibility: hidden;}}
+
+    sidebar .sidebar-content {{
+    background-color: #111 !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}}
 
  [data-baseweb="textarea"] {{
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -53,13 +65,7 @@ st.markdown(
 
 }}
     
-    .stApp {{
-        background: rgb(224,100,213);
-        background: linear-gradient(117deg, rgba(224,100,213,1) 0%, rgba(242,22,237,1) 35%, rgba(249,185,245,1) 100%);
-       
-    }}
 
-   
 
     .stButton>button {{
         background: linear-gradient(to right, #9B59B6, #f63633);
