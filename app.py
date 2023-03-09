@@ -121,8 +121,8 @@ if choose == "Write For Me":
             # output = st.text_area("Here's your Text",label_visibility='visible')
         with col2:
             tone = st.selectbox("Select Tone", options,label_visibility='visible')
-
-        output = st.text_area("Here's your Text",label_visibility='visible')
+        y = st.empty()
+        output = y.text_area("Here's your Text",label_visibility='visible')
         save = st.button("Save")
 
         
@@ -148,7 +148,21 @@ if choose == "Write For Me":
         with x.container():
             descript = x.text_area("Description",placeholder=query, label_visibility='visible')
 
-        
+        outpt = openai.Completion.create(
+                                        engine="text-davinci-003",
+                                        prompt=inpt,
+                                        max_tokens=3600,
+                                        n=1,
+                                        stop=None,
+                                        temperature=0.5,
+                                        )
+        explan= outpt.choices[0].text.strip()
+        # st.write(explan)
+        output.empty()
+
+        with y.container()
+            output = y.text_area("Here's your Text",label_visibility='visible')
+            
         # descript = st.empty()
         # container(Update_des(query))
         # descript.value = query
