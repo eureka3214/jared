@@ -27,7 +27,7 @@ st.markdown(
 
     .sidebar .sidebar-content {{
                 background: rgba( 0, 0, 0, 0 );
-                width: 200px;
+                width: 300px;
 
             }}
 
