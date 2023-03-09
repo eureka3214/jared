@@ -158,7 +158,7 @@ if choose == "Write For Me":
                                         )
         explan= outpt.choices[0].text.strip()
         # st.write(explan)
-        output.empty()
+        y.empty()
 
         with y.container():
             output = y.text_area("Here's your Text",label_visibility='visible')
