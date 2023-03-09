@@ -68,7 +68,8 @@ if choose == "Write For Me":
     output = st.text_area("Heres your Text",label_visibility='visible')
     save = st.button("Save")
     if save:
-        query = str(usecase) + str(tone) + descript
+
+        query = str(usecase) + str(tone) + str(descript)
         st.Write(query)
 
     # columa, columb = st.columns([10,1])
