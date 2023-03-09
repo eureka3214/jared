@@ -5,9 +5,10 @@ import streamlit.components.v1 as html
 # from streamlit_card import card
 import openai
 import os
-st.write('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
 openai.api_key =  os.getenv("APIKEY")
 st.set_page_config(page_title="My App", page_icon=":rocket:", layout="wide",initial_sidebar_state="expanded"  )
+st.write('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
+
 st.markdown(
     f"""
     <style>
