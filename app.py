@@ -39,7 +39,7 @@ st.markdown(
 [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
-    padding: 30px 23px 19px 0px;
+    padding: 30px 13px 7px 8px;
     margin-left: 10px
 
 }}
