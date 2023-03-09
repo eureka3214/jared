@@ -50,10 +50,10 @@ st.markdown(
     
 }}
 
-[data-baseweb="textarea"] > label {{
+.stTextArea > label {{
         font-size: 16px;
         font-weight: bold;
-        
+
     }}
 
 
