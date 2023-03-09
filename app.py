@@ -17,6 +17,8 @@ st.markdown(
 
     .circular-container {{
   border-radius: 10%;
+  width: 900px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
