@@ -22,7 +22,7 @@ st.markdown(
     }}
 
     .css-1x8cf1d edgvbvh10 {{
-        background: linear-gradient(to right, #9B59B6, #f63633);
+        background-image: linear-gradient(to right, #9B59B6, #f63633);
     }}
     </style>
     """,
