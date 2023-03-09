@@ -144,7 +144,7 @@ if choose == "Write For Me":
 
       
     if save:
-        descript = st.empty()
+        # descript = st.empty()
         Update_des(query)
         # descript.value = query
         
