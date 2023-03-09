@@ -17,7 +17,7 @@ st.markdown(
 
     .appview-container .main .block-container{{
         padding: 2rem;
-        background: radial-gradient(circle at top right, rgba(255, 0, 255, 0.1), transparent 600px ), radial-gradient(at bottom left, rgba(4, 59, 92, 0.1), transparent 400px);
+        background: radial-gradient(circle at top right, rgba(255, 0, 255, 0.1), transparent 600px ), radial-gradient(at bottom left, rgba(4, 59, 92, 0.1), transparent 600px);
     
             }}
 
