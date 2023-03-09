@@ -104,8 +104,6 @@ def Update_des(val):
 
 if choose == "Write For Me":
 
-    
-    
     with st.container():
 
         st.header("Write For Me")
