@@ -15,15 +15,6 @@ st.markdown(
     <style>
     #MainMenu {{visibility: hidden;}}
 
-    .circular-container {{
-  border-radius: 10%;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}}
-
     .appview-container .main .block-container{{
         padding: 2rem;
         background: radial-gradient(circle at top right, rgba(255, 0, 255, 0.1), transparent 600px ), radial-gradient(at bottom left, rgba(255, 0, 255, 0.1), transparent 400px);
@@ -89,7 +80,7 @@ st.markdown(
     )
 # st.markdown("<style> .stTextArea > label {font-size:14px; font-weight:bold;} </style> ",unsafe_allow_html=True) 
 
-st.markdown('<div class="circular-container">', unsafe_allow_html=True)
+# st.markdown('<div class="circular-container">', unsafe_allow_html=True)
 
 
 with st.sidebar:
@@ -127,4 +118,4 @@ if choose == "Write For Me":
             st.write(query)
 
 
-st.markdown('</div>', unsafe_allow_html=True)
+# st.markdown('</div>', unsafe_allow_html=True)
