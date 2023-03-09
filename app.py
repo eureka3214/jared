@@ -28,7 +28,7 @@ st.markdown(
             }}
 
     .stButton {{
-        background-image: linear-gradient(to right, #9B59B6, #f63633);
+        background-color: linear-gradient(to right, #9B59B6, #f63633);
     }}
 
     .stTextArea {{ 
