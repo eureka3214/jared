@@ -54,6 +54,8 @@ st.markdown(
 }}
     
     .stApp {{
+        background: rgb(224,100,213);
+        background: linear-gradient(117deg, rgba(224,100,213,1) 0%, rgba(242,22,237,1) 35%, rgba(249,185,245,1) 100%);
        
     }}
 
