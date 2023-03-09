@@ -42,6 +42,9 @@ st.markdown(
 
     .stButton>button {{
         background: linear-gradient(to right, #9B59B6, #f63633);
+        color: white;
+        height: 3em;
+         width: 3em;
     }}
 
     .stTextArea {{ 
