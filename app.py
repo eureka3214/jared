@@ -9,18 +9,20 @@ openai.api_key =  os.getenv("APIKEY")
 st.set_page_config(page_title="My App", page_icon=":rocket:", layout="centered",initial_sidebar_state="expanded"  )
 # st.write('<style>div.block-container{padding-top:0rem;}</style>', unsafe_allow_html=True)
 
+#    [data-testid="column"] {{
+#     box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+#     border-radius: 15px;
+#     padding:6px;
+    
+# }}
+
+
 st.markdown(
     f"""
     <style>
     #MainMenu {{visibility: hidden;}}
 
-    [data-testid="column"] {{
-    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
-    border-radius: 15px;
-    padding:6px;
-    
-}}
-
+ 
 
 [data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
