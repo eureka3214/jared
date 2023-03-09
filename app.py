@@ -136,6 +136,6 @@ if choose == "Write For Me":
 
       
     if save:
-        descript.placeholder = query
+        descript.value = query
 
     # st.markdown('</div>', unsafe_allow_html=True)
