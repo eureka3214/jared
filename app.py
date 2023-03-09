@@ -22,7 +22,9 @@ st.markdown(
     }}
 
     .sidebar .sidebar-content {{
+                background: rgba( 255, 255, 255, 0 );
                 width: 200px;
+
             }}
 
     .stTextArea {{ 
